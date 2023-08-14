@@ -1,3 +1,3 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const p = document.createElement("p");
+p.innerHTML = "this <span> 😀 </span> was added by javascript";
+document.getElementById("smile").appendChild(p);
